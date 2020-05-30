@@ -15,11 +15,14 @@ namespace Planner
             FiveOneTwoEigth.Construct();
             FiveOneTwoEigth.Purchase("Shady Grant");
 
-            FiveOneTwoEigth.Width = 25.5;
-            FiveOneTwoEigth.Stories = 2;
-            FiveOneTwoEigth.Depth = 70.6;
-            FiveOneTwoEigth.Construct();
-            FiveOneTwoEigth.Purchase("John Hanna");
+            churchBuilding.Width = 25.5;
+            churchBuilding.Stories = 2;
+            churchBuilding.Depth = 70.6;
+            churchBuilding.Construct();
+            churchBuilding.Purchase("John Hanna");
+
+            FiveOneTwoEigth.getDetails();
+            churchBuilding.getDetails();
 
         }
     }
